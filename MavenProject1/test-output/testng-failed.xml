@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [RegressionSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Chrometest(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="testPack.FlipcartTestNg">
+        <methods>
+          <include name="openFlipcart"/>
+          <include name="aftermethod"/>
+          <include name="openBrowser"/>
+          <include name="afterclass"/>
+          <include name="aftertest"/>
+          <include name="test2"/>
+          <include name="openbrowser"/>
+        </methods>
+      </class> <!-- testPack.FlipcartTestNg -->
+      <class name="testPack.TestNgpractice">
+        <methods>
+          <include name="test2"/>
+          <include name="beforeclass"/>
+          <include name="beforeTest"/>
+          <include name="aftertest"/>
+          <include name="beforemethod"/>
+          <include name="aftermethod"/>
+          <include name="afterclass"/>
+        </methods>
+      </class> <!-- testPack.TestNgpractice -->
+    </classes>
+  </test> <!-- Chrometest(failed) -->
+  <test thread-count="5" name="FirefoxTest(failed)">
+    <parameter name="browser" value="Firefox"/>
+    <classes>
+      <class name="testPack.FlipcartTestNg">
+        <methods>
+          <include name="openFlipcart"/>
+          <include name="aftermethod"/>
+          <include name="openBrowser"/>
+          <include name="afterclass"/>
+          <include name="aftertest"/>
+          <include name="test2"/>
+          <include name="openbrowser"/>
+        </methods>
+      </class> <!-- testPack.FlipcartTestNg -->
+      <class name="testPack.TestNgpractice">
+        <methods>
+          <include name="test2"/>
+          <include name="beforeclass"/>
+          <include name="beforeTest"/>
+          <include name="aftertest"/>
+          <include name="beforemethod"/>
+          <include name="aftermethod"/>
+          <include name="afterclass"/>
+        </methods>
+      </class> <!-- testPack.TestNgpractice -->
+    </classes>
+  </test> <!-- FirefoxTest(failed) -->
+</suite> <!-- Failed suite [RegressionSuite] -->

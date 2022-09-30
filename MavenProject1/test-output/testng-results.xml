@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="4" passed="0" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-23T12:12:21 IST" name="Failed suite [RegressionSuite]" finished-at="2022-09-23T12:12:29 IST" duration-ms="7857">
+    <groups>
+    </groups>
+    <test started-at="2022-09-23T12:12:21 IST" name="Chrometest(failed)" finished-at="2022-09-23T12:12:23 IST" duration-ms="1947">
+      <class name="testPack.TestNgpractice">
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:testPack.TestNgpractice@41fbdac4]" started-at="2022-09-23T12:12:22 IST" name="beforeTest" finished-at="2022-09-23T12:12:23 IST" duration-ms="648" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="aftertest()[pri:0, instance:testPack.TestNgpractice@41fbdac4]" started-at="2022-09-23T12:12:23 IST" name="aftertest" finished-at="2022-09-23T12:12:23 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+      </class> <!-- testPack.TestNgpractice -->
+      <class name="testPack.FlipcartTestNg">
+        <test-method is-config="true" signature="openbrowser(java.lang.String)[pri:0, instance:testPack.FlipcartTestNg@647e447]" started-at="2022-09-23T12:12:21 IST" name="openbrowser" finished-at="2022-09-23T12:12:22 IST" duration-ms="1248" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openbrowser -->
+        <test-method is-config="true" signature="aftertest()[pri:0, instance:testPack.FlipcartTestNg@647e447]" started-at="2022-09-23T12:12:23 IST" name="aftertest" finished-at="2022-09-23T12:12:23 IST" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+      </class> <!-- testPack.FlipcartTestNg -->
+    </test> <!-- Chrometest(failed) -->
+    <test started-at="2022-09-23T12:12:23 IST" name="FirefoxTest(failed)" finished-at="2022-09-23T12:12:29 IST" duration-ms="5884">
+      <class name="testPack.TestNgpractice">
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:testPack.TestNgpractice@4d9e68d0]" started-at="2022-09-23T12:12:26 IST" name="beforeTest" finished-at="2022-09-23T12:12:29 IST" duration-ms="2961" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="aftertest()[pri:0, instance:testPack.TestNgpractice@4d9e68d0]" started-at="2022-09-23T12:12:29 IST" name="aftertest" finished-at="2022-09-23T12:12:29 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+      </class> <!-- testPack.TestNgpractice -->
+      <class name="testPack.FlipcartTestNg">
+        <test-method is-config="true" signature="openbrowser(java.lang.String)[pri:0, instance:testPack.FlipcartTestNg@1d9b7cce]" started-at="2022-09-23T12:12:23 IST" name="openbrowser" finished-at="2022-09-23T12:12:26 IST" duration-ms="2895" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openbrowser -->
+        <test-method is-config="true" signature="aftertest()[pri:0, instance:testPack.FlipcartTestNg@1d9b7cce]" started-at="2022-09-23T12:12:29 IST" name="aftertest" finished-at="2022-09-23T12:12:29 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+      </class> <!-- testPack.FlipcartTestNg -->
+    </test> <!-- FirefoxTest(failed) -->
+  </suite> <!-- Failed suite [RegressionSuite] -->
+</testng-results>
