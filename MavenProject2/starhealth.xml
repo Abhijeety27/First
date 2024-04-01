@@ -8,5 +8,4 @@
       <class name="starhealthTest.StarhealthTest"/>
     </classes>
   </test> <!-- Test -->
-  
 </suite> <!-- Suite -->
